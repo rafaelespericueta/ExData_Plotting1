@@ -38,7 +38,7 @@ plot(DateTime, Sub_metering_1, type="l",
      yaxp  = c(0, 30, 3),
      cex.axis = 0.8,
      cex.lab = 0.8,
-     ylab='Energy submetering')
+     ylab='Energy sub metering')
 lines(DateTime, Sub_metering_2, type="l", col="red")
 lines(DateTime, Sub_metering_3, type="l", col="blue")
 legend("topright", 
